@@ -97,90 +97,88 @@ The following 10 practice questions simulate actual exam topics and scenarios.
 ---
 
 ### Question 5
-**When configuring policies related to Cloud Security Fundamentals & Zero Trust Architecture in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**To prevent lateral network movement across workloads in Zero Trust Architecture, which method is used?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. VLAN trunking with native IDs
+- B. Identity-centric application microsegmentation
+- C. Promiscuous mode routing
+- D. Broadcast domain expansion
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `B. Identity-centric application microsegmentation`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Cloud Security Fundamentals & Zero Trust Architecture.
+**Explanation**: Microsegmentation connects users directly to individual applications without granting network segment access.
 
 ---
 
 ### Question 6
-**When configuring policies related to Zscaler Internet Access (ZIA) Core Services in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**What strategy mitigates zero-day vulnerabilities effectively within Zscaler Internet Access (ZIA)?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. Weekly signature file downloads
+- B. Cloud-delivered inline sandboxing and AI behavioral analysis
+- C. Manual IP address blocking
+- D. Turning off HTTP/2 support
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `B. Cloud-delivered inline sandboxing and AI behavioral analysis`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Zscaler Internet Access (ZIA) Core Services.
+**Explanation**: Inline AI sandboxing inspects unknown file payloads before delivery to detect advanced threats.
 
 ---
 
 ### Question 7
-**When configuring policies related to Zscaler Private Access (ZPA) Deployment & Access Controls in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**Where should high-velocity transaction logs be streamed for continuous analysis in Zscaler environments?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. Local client browser storage
+- B. SIEM/Log analytics via secure API or stream connectors
+- C. Unencrypted FTP servers
+- D. Volatile RAM disks
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `B. SIEM/Log analytics via secure API or stream connectors`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Zscaler Private Access (ZPA) Deployment & Access Controls.
+**Explanation**: Enterprise observability requires streaming log feeds into SIEM platforms for real-time security correlation.
 
 ---
 
 ### Question 8
-**When configuring policies related to Traffic Redirection & User Authentication in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**Which method directs client endpoint traffic securely to Zscaler cloud edge nodes?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. Static host file modifications
+- B. Client Connector app or PAC file steering with GRE/IPSec tunnels
+- C. Disabling default gateways
+- D. Forcing dial-up RAS connections
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `B. Client Connector app or PAC file steering with GRE/IPSec tunnels`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Traffic Redirection & User Authentication.
+**Explanation**: Automated traffic steering mechanisms route user traffic to the optimal nearby cloud edge instance.
 
 ---
 
 ### Question 9
-**When configuring policies related to Cloud Security Fundamentals & Zero Trust Architecture in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**How is fault tolerance achieved across global Zscaler cloud infrastructure?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. Single active-passive hardware failover pair
+- B. Multi-datacenter elastic cloud architecture with geo-DNS routing
+- C. Manual IP DNS failover scripts
+- D. Standard hub-and-spoke VPN concentrators
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `B. Multi-datacenter elastic cloud architecture with geo-DNS routing`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Cloud Security Fundamentals & Zero Trust Architecture.
+**Explanation**: Distributed cloud infrastructure ensures continuous service uptime through automated health checks and geo-steering.
 
 ---
 
 ### Question 10
-**When configuring policies related to Zscaler Internet Access (ZIA) Core Services in ZDTA, which component evaluates posture and user group membership prior to session establishment?**
+**Which framework compliance requirement is directly addressed by auditing access controls in Zscaler Internet Access?**
 
-- A. Identity Provider (IdP) integration combined with Zscaler Policy Engine
-- B. Local Active Directory Domain Controller without SAML 2.0
-- C. Legacy RADIUS server operating on port 1812
-- D. Perimeter Router Access Control List (ACL)
+- A. PCI-DSS / SOC 2 / ISO 27001
+- B. Legacy RFC 1918 addressing
+- C. SMTP relay regulations
+- D. FTP standard IEEE 802.3
 
-**Correct Answer**: `A. Identity Provider (IdP) integration combined with Zscaler Policy Engine`
+**Correct Answer**: `A. PCI-DSS / SOC 2 / ISO 27001`
 
-**Explanation**: Zscaler integrates with SAML 2.0 / SCIM IdPs to validate user identity and device posture before making policy enforcement decisions for Zscaler Internet Access (ZIA) Core Services.
+**Explanation**: Comprehensive access logs and strict least-privilege policies satisfy enterprise SOC 2 and ISO compliance requirements.
 
 ---
-
-
 
 ## Preparation Strategy & Resources
 
